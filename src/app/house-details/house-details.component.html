@@ -1,0 +1,6 @@
+<div *ngIf="houses" class="house-details">
+    <img [src]="house.imageUrl" alt="House Image">
+    <h2>{{ house.title }}</h2>
+    <p>{{ house.description }}</p>
+    <p>Price: {{ house.price | currency }}</p>
+</div>

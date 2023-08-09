@@ -1,0 +1,17 @@
+.house-details {
+    text-align: center;
+}
+
+.house-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.house-details h2 {
+    margin-top: 8px;
+}
+
+.house-details p {
+    color: #333;
+}
